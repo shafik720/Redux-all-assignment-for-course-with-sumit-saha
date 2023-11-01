@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: rgb(112, 76, 182);
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.correct-field{
+  background: #00D991 !important;
+  color: black  !important;
+  margin-left: 15px;
+  border-radius: 5px ;
+  padding: 5px;
+  font-weight: 700;
+}
+.correct-field option{
+  color: blue;
+  padding: 5px;
+  font-weight: 600;
+}
+
+
+.assignment-submit-form {
+  border: 2px solid grey;
+  /* width: 70%; */
+  padding: 70px 30px;
+  border-radius: 10px;
+  /* background: #080E1B; */
+}
+.assignment-submit-form h2{
+  font-weight: 700;
+  font-size: 25px;
+  color: #2CA1F0;
+}
+.assignment-submit-form form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+.assignment-submit-form input{
+  border: 2px solid grey;
+  width: 80%;
+  border-radius: 10px;
+  height: 50px;
+  padding: 0 15px;
+  color: #005CC5;
+  font-weight: 600;
+  font-size: 22px;
+}
+.assignment-submit-form button{
+  margin-top: 20px;
+  background: #00AF5C;
+  padding: 10px;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+
+.disable-button{
+  background: grey;
+  color: white;
+  cursor :no-drop;
+}

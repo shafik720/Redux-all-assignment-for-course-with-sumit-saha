@@ -1,0 +1,22 @@
+{
+  "books": [
+    {
+      "name": "The Last Thing He Told Me: A Novel",
+      "author": "russell",
+      "thumbnail": "https://m.media-amazon.com/images/I/51Ga5GuElyL._SX331_BO1,204,203,200_.jpg",
+      "price": "560",
+      "rating": "4",
+      "featured": false,
+      "id": 3
+    },
+    {
+      "name": "TUSAR SEN",
+      "author": "Mick Herron",
+      "thumbnail": "https://m.media-amazon.com/images/I/51Ga5GuElyL._SX331_BO1,204,203,200_.jpg",
+      "price": "670",
+      "rating": "5",
+      "featured": true,
+      "id": 14
+    }
+  ]
+}
